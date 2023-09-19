@@ -1,0 +1,201 @@
+<resources>
+    <string name="app_name">Survey Apps</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="text_email">Email</string>
+    <string name="password">Password</string>
+    <string name="register_text">Register</string>
+    <string name="button_login">Login</string>
+    <string name="text_name">Name</string>
+    <string name="register">Register</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_survey">Start and fill the survey now</string>
+    <string name="btn_survey">Start Survey</string>
+    <string name="text_question">Question</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="first_question">Apakah bangunan adalah tempat tinggal?</string>
+    <string name="jenis_fasilitas">Jenis Fasilitas</string>
+    <string name="fasilitas_umum">Fasilitas Umum</string>
+    <string name="nama_fasilitas">Nama Fasilitas</string>
+    <string name="subkategori_fasilitas">Subkategori Fasilitas</string>
+    <string name="text_alamat">Alamat</string>
+    <string name="perusahaan">Perusahaan</string>
+    <string name="nama_perusahaan">Nama Perusahaan</string>
+    <string name="text_golongan_pokok_industri">Golongan Pokok Industri</string>
+    <string name="text_barang_yang_dihasilkan">Barang yang dihasilkan</string>
+    <string name="hint_barang_yang_dihasilkan">Barang atau jasa</string>
+    <string name="bahan_baku">Bahan baku</string>
+    <string name="fasilitas_ekonomi">Fasilitas Ekonomi</string>
+    <string name="text_umkm">UMKM</string>
+    <string name="nama_umkm">nama UMKM</string>
+    <string name="text_jenis_usaha">Jenis Usaha</string>
+    <string name="text_jumlah_pekerja">Jumlah pekerja</string>
+    <string name="texthint_jumlah_pekerja">10</string>
+    <string name="text_keterangan">Keterangan</string>
+    <string name="industri_kecil">Industri kecil</string>
+    <string name="nama_industri">Nama industri</string>
+    <string name="text_camera">Camera</string>
+    <string name="text_gallery">Gallery</string>
+    <string name="text_upload">Upload Data</string>
+    <string name="pilih">Pilih </string>
+    <string name="warning_upload">Periksa Lokasi dan Gambar terlebih dahulu.</string>
+    <string name="next_button">Selanjutnya</string>
+    <string name="texthint_nama">nama</string>
+    <string name="warning_data">Harap cek kembali dan isi seluruh data dengan benar</string>
+    <string name="warning_null_answer">Harap pilih salah satu untuk melanjutkan.</string>
+    <string name="success_upload">Data berhasil ditambahkan</string>
+    <string name="more_menu">Menu</string>
+    <string name="log_out">Log out</string>
+    <string name="error">Terjadi error saat melakukan perintah</string>
+
+    <string-array name="second_question">
+        <item>Apakah merupakan fasilitas ekonomi?</item>
+        <item>Apakah digunakan untuk usaha?</item>
+    </string-array>
+
+    <string-array name="third_question">
+        <item>Apakah tergolong kegiatan industri</item>
+        <item>Apakah usaha tersebut tegolong industri?</item>
+        <item>Selain sebagai tempat tinggal,\napa ada fungsi lain?</item>
+    </string-array>
+
+    <string-array name="jenis_fasilitas_spinner">
+        <item>Pilih Kategori</item>
+        <item>Fasilitas Pendidikan</item>
+        <item>Fasilitas Kesehatan</item>
+        <item>Fasilitas Ibadah</item>
+        <item>Fasilitas Olahraga</item>
+        <item>Lainnya</item>
+    </string-array>
+
+    <string-array name="subkategori_fasilitas_pendidikan">
+        <item>Pendidikan Anak Usia Dini (PAUD)</item>
+        <item>TK/RA</item>
+        <item>SD/MI</item>
+        <item>SMP/MTs</item>
+        <item>SMA/MA</item>
+        <item>SMK</item>
+        <item>Akademi/Perguruan Tinggi</item>
+    </string-array>
+
+    <string-array name="subkategori_fasilitas_kesehatan">
+        <item>Rumah Sakit</item>
+        <item>Rumah sakit bersalin</item>
+        <item>Puskesmas dengan rawat inap</item>
+        <item>Puskesmas tanpa rawat inap</item>
+        <item>Puskesmas pembantu</item>
+        <item>Tempat praktik dokter</item>
+        <item>Poskesdes</item>
+        <item>Polindes</item>
+        <item>Apotek</item>
+        <item>Toko khusus obat (jamu)</item>
+        <item>Posyandu aktif </item>
+    </string-array>
+
+    <string-array name="subkategori_tempat_ibadah">
+        <item>Masjid</item>
+        <item>Surau/Langgar/Mushola</item>
+        <item>Gereja Kristen</item>
+        <item>Gereja Katolik</item>
+        <item>Kapel</item>
+        <item>Pura</item>
+        <item>Wihara</item>
+        <item>Kelenteng</item>
+        <item>Tempat Ibadah Lainnya..</item>
+    </string-array>
+
+    <string-array name="subkategori_fasilitas_olahraga">
+        <item>Lapangan Bulu Tangkis</item>
+        <item>Lapangan Futsal</item>
+        <item>Kolam Renang</item>
+        <item>Tempat Bilyard</item>
+        <item>Pusat kebugaran (senam. Fitness, aerobic dll)</item>
+    </string-array>
+
+
+    <string-array name="subkategori_fasilitas_ekonomi">
+        <item>Bank Umum Pemerintah\n(BRI, BNI, Mandiri, BPD, BTN)</item>
+        <item>Bank Umum Swasta\n(BCA, Permata, Sinarmas, CIMB, dll)</item>
+        <item>Bank Perkreditan Rakyat (BPR)</item>
+        <item>Koperasi Unit Desa (KUD)</item>
+        <item>Koperasi Simpan Pinjam</item>
+        <item>Koperasi lainnya..</item>
+        <item>Pasar Modern</item>
+        <item>Pasar Tradisional</item>
+        <item>Minimarket/Swalayan</item>
+        <item>Restoran/rumah makan</item>
+        <item>Warung/kedai makanan minuman</item>
+        <item>Hotel</item>
+        <item>Penginapan:\nhomestay/villa/losmen/wisma</item>
+        <item>Toko/warung kelontong</item>
+        <item>Agen pengerahan TKI\nke luar negeri</item>
+
+    </string-array>
+
+    <string-array name="subkategori_lainnya">
+        <item>Kantor Pemerintah</item>
+
+    </string-array>
+
+    <string-array name="golongan_pokok_industri">
+        <item>Industri Makanan</item>
+        <item>Industri Minuman</item>
+        <item>Industri Pengolahan tembakau</item>
+        <item>Industri Tekstil</item>
+        <item>Industri Pakaian jadi</item>
+        <item>Industri Kulit, barang dari kulit dan alas kaki</item>
+        <item>Industri Kayu, barang dari kayu dan gabus (tidak termasuk furnitur) dan barang anyaman dari bambu, rotan dan sejenisnya</item>
+        <item>Industri Kertas dan barang dari kertas</item>
+        <item>Industri Pencetakan dan reproduksi media rekaman</item>
+        <item>Industri Produk dari batu bara dan pengilangan minyak bumi</item>
+        <item>Industri Bahan kimia dan barang dari bahan kimia</item>
+        <item>Industri Farmasi, produk obat kimia dan obat tradisional</item>
+        <item>Industri Karet, barang dari karet dan plastik</item>
+        <item>Industri Barang galian bukan logam</item>
+        <item>Industri Logam dasar</item>
+        <item>Industri Barang logam, bukan mesin dan peralatannya</item>
+        <item>Industri Komputer, barang elektronik dan optik</item>
+        <item>Industri Peralatan listrik</item>
+        <item>Industri Mesin dan perlengkapan ytdl</item>
+        <item>Industri Kendaraan bermotor, trailer dan semi trailer</item>
+        <item>Industri Alat angkutan lainnya</item>
+        <item>Industri Furnitur</item>
+        <item>Industri Pengolahan lainnya</item>
+        <item>Industri Jasa reparasi dan pemasangan mesin dan peralatan</item>
+    </string-array>
+
+    <string-array name="jenis_usaha">
+        <item>Pertanian</item>
+        <item>Pertambangan dan Penggalian</item>
+        <item>Pengadaan Listrik</item>
+        <item>Pengelolaan Air</item>
+        <item>Konstruksi</item>
+        <item>Perdagangan</item>
+        <item>Pengangkutan</item>
+        <item>Penyediaan Akomodasi</item>
+    </string-array>
+
+    <string-array name="pilih_kategori">
+        <item>
+            Pilih Kategori
+        </item>
+
+    </string-array>
+
+    <string-array name="pilih_subkategori">
+        <item>
+            Pilih kategori terlebih dahulu
+        </item>
+
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="text_lat">Lat</string>
+    <string name="text_lon">Lon</string>
+    <string name="text_tempat_tinggal">Tempat Tinggal</string>
+    <string name="text_nama_tempat_tinggal">Nama Tempat Tinggal</string>
+
+</resources>
